@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="un" value="indudhara"></parameter>
+  <parameter name="pw" value="indudharapassword"></parameter>
+ 
+  <test name="Test">
+  <parameter name="un" value="admin"></parameter>
+  <parameter name="pw" value="manager"></parameter>
+    <classes>
+      <class name="testNg_25.parameters3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+  <parameter name="un" value="automation"></parameter>
+  <parameter name="pw" value="selenium"></parameter>
+    <classes>
+      <class name="testNg_25.parameters3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

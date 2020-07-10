@@ -1,0 +1,8 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="class_Assignment_27.TestEMIPrice"/>
+    </classes>
+  </test> 
+</suite> 

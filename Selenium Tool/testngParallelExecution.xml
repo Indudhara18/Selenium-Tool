@@ -1,0 +1,28 @@
+
+<suite name="Suite" parallel="tests" >
+  <test name="Test"  > 
+  
+  <parameter name="sBrowser" value="chrome"/>
+  <parameter name="un" value="shephard"/>
+  <parameter name="pw" value="kennel"/>
+  
+  
+    <classes>
+      <class name="testNg_25.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test1">
+  
+  <parameter name="sBrowser" value="firefox" />
+  <parameter name="un" value="shephard" />
+  <parameter name="pw" value="kennel" />
+  
+  
+    <classes>
+      <class name="testNg_25.ParallelExecution"/>
+    </classes>
+  </test> 
+
+
+</suite>

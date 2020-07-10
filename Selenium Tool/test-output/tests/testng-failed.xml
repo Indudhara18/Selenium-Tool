@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [tests]">
+  <test parallel="tests" name="TestFirefox(failed)">
+    <classes>
+      <class name="testNg_25.ParallelExecution">
+        <methods>
+          <include name="test_Browser"/>
+        </methods>
+      </class> <!-- testNg_25.ParallelExecution -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+  <test parallel="tests" name="TestChrome(failed)">
+    <classes>
+      <class name="testNg_25.ParallelExecution">
+        <methods>
+          <include name="test_Browser"/>
+        </methods>
+      </class> <!-- testNg_25.ParallelExecution -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [tests] -->

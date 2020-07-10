@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test name="TestFirefox">
+  <parameter name="sBrowser" value="firefox"></parameter>
+  <parameter name="pw" value="gawda"></parameter>
+    <classes>
+      <class name="testNg_25.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="TestChrome">
+  <parameter name="sBrowser" value="chrome"></parameter>
+  <parameter name="un" value="indudhara"></parameter>
+  <parameter name="pw" value="gawda"></parameter>
+    <classes>
+      <class name="testNg_25.ParallelExecution"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

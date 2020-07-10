@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <parameter name="pw" value="kennel"/>
+  <parameter name="un" value="shephard"/>
+  <parameter name="sBrowser" value="firefox"/>
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="pw" value="kennel"/>
+    <parameter name="un" value="shephard"/>
+    <parameter name="sBrowser" value="firefox"/>
+    <classes>
+      <class name="testNg_25.ParallelExecution">
+        <methods>
+          <include name="test_Browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNg_25.ParallelExecution -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
